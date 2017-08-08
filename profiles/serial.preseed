@@ -1,0 +1,10 @@
+# Disable video and enable serial console
+d-i debian-installer/add-kernel-opts string video=off\
+ elevator=deadline console=ttyS0,115200
+
+# Include non-free debian section
+base-config     apt-setup/non-free      boolean true
+
+# Load firmware before detecting network cards
+d-i hw-detect/load_firmware boolean true
+
