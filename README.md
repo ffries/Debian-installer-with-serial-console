@@ -46,6 +46,63 @@ The resulting installer CD is in:
 
 Burn a CD-ROM or transfer to a USB key.
 
+# Screenshots
+
+The installation under serial console is using only ASCII characters, and thus is very slylish and old-fashioned. Here are a few screenshots from the installer. Nothing new under the sun, as this is a plain Debian installer:
+
+Installation begins automatically:
+
+  lqqqqqqqqqqqqqqqqqqqqqqu [!!] Select your location tqqqqqqqqqqqqqqqqqqqqqqk
+  x                                                                         x
+  x The selected location will be used to set your time zone and also for   x
+  x example to help select the system locale. Normally this should be the   x
+  x country where you live.                                                 x
+  x                                                                         x
+  x Listed are locations for: Europe. Use the <Go Back> option to select    x
+  x a different continent or region if your location is not listed.         x
+  x                                                                         x
+  x Country, territory or area:                                             x
+  x                                                                         x
+  x                    Faroe Islands                                        x
+  x                    Finland                                              x
+  x                    France                         a                     x
+  x                    Georgia                        a                     x
+  x                    Germany                        a                     x
+  x                    Gibraltar                                            x
+  x                                                                         x
+  x     <Go Back>                                                           x
+  x                                                                         x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+  <Tab> moves; <Space> selects; <Enter> activates buttons
+
+Installer has only English locales, choose whatever, this can be changed after first boot:
+
+  lqqqqqqqqqqqqqqqqqqqqqqqqu [!] Configure locales tqqqqqqqqqqqqqqqqqqqqqqqqk
+  x                                                                         x
+  x There is no locale defined for the combination of language and          x
+  x country you have selected. You can now select your preference from      x
+  x the locales available for the selected language. The locale that will   x
+  x be used is listed in the second column.                                 x
+  x                                                                         x
+  x Country to base default locale settings on:                             x
+  x                                                                         x
+  x                 Nigeria              -  en_NG                           x
+  x                 Philippines          -  en_PH.UTF-8  a                  x
+  x                 Singapore            -  en_SG.UTF-8  a                  x
+  x                 South Africa         -  en_ZA.UTF-8  a                  x
+  x                 United Kingdom       -  en_GB.UTF-8  a                  x
+  x                 United States        -  en_US.UTF-8                     x
+  x                 Zambia               -  en_ZM        a                  x
+  x                 Zimbabwe             -  en_ZW.UTF-8                     x
+  x                                                                         x
+  x     <Go Back>                                                           x
+  x                                                                         x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+  <F1> for help; <Tab> moves; <Space> selects; <Enter> activates buttons
+
+
 
 # Credits
 Credits go the GNU/linux Debian project, Debian installer and Debian simple-cdd tool. 
