@@ -1,9 +1,20 @@
 # Debian-installer-with-serial-console
-Allows installing Debian GNU/Linux using serial console on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
+Allows installing Debian GNU/Linux using serial console on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU/ALIX to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
 
 Debian-serial-console is a wrapper around build-simple-cdd scrpit and Debian preseed configuration.
 
-It allows to build a generic Debian GNU/Linux installer. It is yet an experimental tool meant to study inclusion in Debian of an installer with full serial-console support. Use with caution at your own risk.
+Before installing, you may read Debian installer documentation:
+https://d-i.debian.org/manual/en.i386/apa.html
+
+WARNING:
+This project is NOT an official Debian installer and is NOT supported by the Debian community. It allows to build a generic Debian GNU/Linux installer with serial console enabled by default. It is yet an experimental tool meant to study inclusion in Debian of an installer with full serial-console support. Use with caution at your own risk.
+
+Using the Official Debian installer for a serial console installation is still possible:
+* Follow Debian guidelines to make a CD or USB key, and press "H" on boot to access help.
+* Press F10 or F12 hoping this does not interfere with your running environment.
+* Upon reboot, you will need to modify /etc/defaut/grub to enable serial console. 
+
+If the Debian official installer does not suit you, please use our script to create an alternative Debian installer with serial console:
 
 # Supported computers
 No need for a complex BIOS or IPMI to have serial console redirection. Your computer ONLY needs a serial port. This is the case of most servers and small appliances, like the Pc Engines APU 1/2/3 series and Alix series.
@@ -153,7 +164,7 @@ Network should be autodetected if your network card is supported by Debian insta
 
 	CTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.7 | VT102 | Connecté 0:0 | ttyUSB0                                                                                                                               
 
-The keyboard seems to be auto-detected by installer (?) or detected during creation of the installer (?). On a stock-Debian installer, keyboard is detected. We will have to check and verify that issue. So please check [ ] Show password to verify that your keyboard is well-detected.
+The keyboard seems to be auto-detected by installer. please check '[ ] Show password' to verify that your keyboard is well-detected.
 
 	lqqqqqqqqqqqqqqqqu [!!] Set up users and passwords tqqqqqqqqqqqqqqqqqk
 	x                                                                    x
