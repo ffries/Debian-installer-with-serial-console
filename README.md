@@ -24,7 +24,11 @@ This installer has been tested on:
 * Pc Engines 2D13
 * Supermicro server
 
-Please report success opening a support issue on Github:
+This unofficial installer is very minimal to support most needs.
+It does not include custom packages, i.e. IPMI for Supermicro or LED support for Pc Engines APU.
+After first boot, just install the required packages.
+
+Please report success or questions opening a support issue on Github:
 https://github.com/ffries/Debian-installer-with-serial-console/issues
 
 # Serial console
