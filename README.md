@@ -41,7 +41,11 @@ Then build the CD:
 
 	sh ./build-debian-installer.sh
 
-The resulting installer CD is in images/
+The resulting installer CD is in:
+	images/debian-9.1-amd64-CD-1.iso
+
+Burn a CD-ROM or transfer to a USB key.
+
 
 # Credits
 Credits go the GNU/linux Debian project, Debian installer and Debian simple-cdd tool. 
