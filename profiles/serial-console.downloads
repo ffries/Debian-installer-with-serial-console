@@ -1,3 +1,4 @@
 # Uncomment to indicate a custom Linux kernel for inclusion
 # Normally, this should not be needed
 #linux-image-amd64
+#Under i386 replace with: linux-image-686-pae or linux-image-586.
