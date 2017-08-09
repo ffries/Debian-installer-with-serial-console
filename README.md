@@ -320,6 +320,8 @@ Reboot!
 
 	The system is going to reboot.
 
+WARNING: at present, it reboots on the installer. So remove installer as quickly as possible.
+
 # Upon first boot
 
 This is a very minimal installation. Now, please customize to your needs.
