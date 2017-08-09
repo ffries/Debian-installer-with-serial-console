@@ -52,27 +52,27 @@ The installation under serial console is using only ASCII characters, and thus i
 
 Installation begins automatically:
 
-  lqqqqqqqqqqqqqqqqqqqqqqu [!!] Select your location tqqqqqqqqqqqqqqqqqqqqqqk
-  x                                                                         x
-  x The selected location will be used to set your time zone and also for   x
-  x example to help select the system locale. Normally this should be the   x
-  x country where you live.                                                 x
-  x                                                                         x
-  x Listed are locations for: Europe. Use the <Go Back> option to select    x
-  x a different continent or region if your location is not listed.         x
-  x                                                                         x
-  x Country, territory or area:                                             x
-  x                                                                         x
-  x                    Faroe Islands                                        x
-  x                    Finland                                              x
-  x                    France                         a                     x
-  x                    Georgia                        a                     x
-  x                    Germany                        a                     x
-  x                    Gibraltar                                            x
-  x                                                                         x
-  x     <Go Back>                                                           x
-  x                                                                         x
-  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+	lqqqqqqqqqqqqqqqqqqqqqqu [!!] Select your location tqqqqqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+  	x The selected location will be used to set your time zone and also for   x
+  	x example to help select the system locale. Normally this should be the   x
+  	x country where you live.                                                 x
+  	x                                                                         x
+  	x Listed are locations for: Europe. Use the <Go Back> option to select    x
+  	x a different continent or region if your location is not listed.         x
+  	x                                                                         x
+  	x Country, territory or area:                                             x
+  	x                                                                         x
+  	x                    Faroe Islands                                        x
+  	x                    Finland                                              x
+  	x                    France                         a                     x
+  	x                    Georgia                        a                     x
+  	x                    Germany                        a                     x
+  	x                    Gibraltar                                            x
+  	x                                                                         x
+  	x     <Go Back>                                                           x
+  	x                                                                         x
+  	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
   <Tab> moves; <Space> selects; <Enter> activates buttons
 
