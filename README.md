@@ -31,7 +31,7 @@ The installer includes free and non-free firmware allowing to detect network and
 # Running the script
 Checkout the project:
 
-	git checkout Debian-installer-with-serial-console 
+	git clone https://github.com/ffries/Debian-installer-with-serial-console.git 
 
 	cd Debian-installer-with-serial-console 
 
