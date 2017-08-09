@@ -1,7 +1,7 @@
 # Debian-installer-with-serial-console
-Debian GNU/Linux installer with serial console on /dev/ttyS0 with 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
+Allows installing Debian GNU/Linux using serial console on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
 
-Debian-serial-console is a wrapper around build-simple-cdd and Debian preseed configuration.
+Debian-serial-console is a wrapper around build-simple-cdd scrpit and Debian preseed configuration.
 
 It allows to build a generic Debian GNU/Linux installer. It is yet an experimental tool meant to study inclusion in Debian of an installer with full serial-console support. Use with caution at your own risk.
 
@@ -13,6 +13,8 @@ By default, serial console is set to:
 Available in two architectures:
 * i386 (32 bit)
 * amd64 (64 bit)
+
+amd64 by defaut. You will need to modify /profiles/serial-console.conf to enable i386.
 
 # Debian flavors
 Built for Debian latest release with security fixes:
@@ -189,7 +191,7 @@ Choose to agree or disagree with Intel license agreement. If you disagree, insta
 	x     <Yes>                                                      <No>     x
 	qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
 
-Choose a mirror:
+Network is auto-configured. We will test if possible to display more information about Network. Choose a mirror:
 
 	lqqqqqqqqqqqqqqqqqqu [!] Configure the package manager tqqqqqqqqqqqqqqqqqqk
 	x                                                                         x
@@ -266,17 +268,33 @@ Reboot!
 
 	The system is going to reboot.
 
+# Upon first boot
+
+This is a very minimal installation. Now, please customize to your needs.
+
+Reconfigure your locales:
+
+	dpkg-reconfigure locales
+
+Install OpenSSH server if you need SSH remote access:
+	
+	apt-get update
+	apt-get install openssh-server
+
+
 
 # Improvements/Issues
 
+* Allow manual network configuration.
 * Provide all locales like in a normal installer.
 * Make sure that keyboard is well-detected. My keyboard is French. Can you verify with your own keyboard?
+* Add more options to the script.
 * Verify if Intel drivers can be added to the installer.
 * Contact Debian team and discuss an official Debian installer with serial console, available from debian.org, with their own tools (stock installer).
 
 # Credits
 Credits go the GNU/linux Debian project, Debian installer and Debian simple-cdd tool. 
-This project is also inspired by https://github.com/ssinyagin/pcengines-apu-debian-cd, which provides and automated installation for PC Engines APU.
+This project is also inspired by https://github.com/ssinyagin/pcengines-apu-debian-cd, which provides an automated installation for PC Engines APU.
 
 # Future plans
 Serial console is very common, from small embedded devices to large servers. No full-featured serial installer is available in Debian. On the converse, video mode is now set to VGA with graphics and Debian installer returns an error on serial console. Therefore, we would like to explore the idea of adding a serial console target in the main Gnu/Linux Debian installer. When this is done, we will remove this project.
