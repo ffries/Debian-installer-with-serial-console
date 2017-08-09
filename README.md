@@ -6,22 +6,39 @@ Debian-serial-console is a wrapper around build-simple-cdd and Debian preseed co
 It allows to build a generic Debian GNU/Linux installer:
 
 # Serial console
+By default, serial console is set to:
 /dev/ttySO 115200
 
 # Debian architectures
-*i386 (32 bit)
-*amd64 (64 bit)
+Available in two architectures:
+i386 (32 bit)
+amd64 (64 bit)
 
 # Debian flavors
-Debian 9.1 (Stretch) with security fixes
+Built for Debian latest release with security fixes:
+Debian 9.1 (Stretch) 
+
+# Firmwares
+the installer includes free and non-free firmware allowing to detect network and wireless cards:
+   firmware-linux
+   firmware-brcm80211
+   firmware-realtek
+   firmware-atheros
+   firmware-misc-nonfree
+   firmware-ipw2x00
+   firmware-iwlwifi
 
 # Running the script
+Checkout the project:
 	git checkout Debian-installer-with-serial-console 
 	cd Debian-installer-with-serial-console 
 
 You may need to customize profiles/serial-console.conf
+
+Then build the CD:
 	sh ./build-debian-installer.sh
 
+The resulting installer CD is in images/
 
 # Credits
 Credits go the Debian project, Debian installer and Debian simple-cdd tool. 
