@@ -3,7 +3,7 @@ Debian GNU/Linux installer with serial console on /dev/ttyS0 with 115200. No nee
 
 Debian-serial-console is a wrapper around build-simple-cdd and Debian preseed configuration.
 
-It allows to build a generic Debian GNU/Linux installer:
+It allows to build a generic Debian GNU/Linux installer. It is yet an experimental tool meant to study inclusion of a fully serial target into Debian. Use with caution at your own risk.
 
 # Serial console
 By default, serial console is set to:
@@ -263,6 +263,7 @@ Install Grub bootloader:
 	<Tab> moves; <Space> selects; <Enter> activates buttons
 
 Reboot!
+
 	The system is going to reboot.
 
 
