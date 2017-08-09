@@ -154,7 +154,71 @@ After setting root and user passwords, you have access to disc setup. YES, you h
 
 	<Tab> moves; <Space> selects; <Enter> activates buttons
 
+Installing base system:
 
+	lqqqqqqqqqqqqqqqqqqqqqu Installing the base system tqqqqqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x                                    6%                                   x
+	x                                                                         x
+	x Validating libselinux1...                                               x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+Choose to agree or disagree with Intel license agreement. If you disagree, installation will be aborted. If you don't need this driver, please remove it from your configuration before making the installer:
+	
+	qqqqqqqqqqqqqqqqqqu [!!] Configuring firmware-ipw2x00 tqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x In order to install this package, you must agree to the following       x
+	x terms, the "Intel Pro Wireless 2100 and 2200/2915 License". If you do   x
+	x not agree, the installation will be canceled.                           x
+	x                                                                         x
+	x SOFTWARE LICENSE AGREEMENT (Final, Single User)hes spéciales            x
+	x                                                                         x
+	Do not use or load this firmware image (the "Software") until you
+	have carefully read the following terms and conditions. By loading or   
+	using the Software, you agree to the terms of this Agreement. If you    
+	do not wish to so agree, do not install or use the Software.      
+	x                                                                         x
+	x LICENSE. You may copy and use the Software, subject to these            x
+	x conditions:                                                             x
+	x                                                                         x
+	x 1. This Software is licensed for use only in conjunction with Intel     x
+	x                                                                         x
+	x     <Yes>                                                      <No>     x
+	qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+
+Choose a mirror:
+
+	lqqqqqqqqqqqqqqqqqqu [!] Configure the package manager tqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x The goal is to find a mirror of the Debian archive that is close to     x
+	x you on the network -- be aware that nearby countries, or even your      x
+	x own, may not be the best choice.                                        x
+	x                                                                         x
+	x Debian archive mirror country:                                          x
+	x                                                                         x
+	x                      Colombia                                           x
+	x                      Costa Rica                  a                      x
+	x                      Croatia                                            x
+	x                      Czechia                     a                      x
+	x                      Denmark                     a                      x
+	x                      El Salvador                 a                      x
+	x                      Estonia                     a                      x
+	x                      Finland                     a                      x
+	x                      France                                             x
+	x                                                                         x
+	x     <Go Back>                                                           x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+<Tab> moves; <Space> selects; <Enter> activates buttons
+
+
+# Improvements/Issues
+
+* Provide all locales like in a normal installer.
+* Make sure that keyboard is well-detected. My keyboard is French. Can you verify with your own keyboard?
+* Contact Debian team and discuss an official Debian installer with serial console, available from debian.org, with their own tools (stock installer).
 
 # Credits
 Credits go the GNU/linux Debian project, Debian installer and Debian simple-cdd tool. 
