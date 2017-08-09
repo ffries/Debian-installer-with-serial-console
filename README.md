@@ -7,7 +7,7 @@ It allows to build a generic Debian GNU/Linux installer:
 
 # Serial console
 By default, serial console is set to:
-/dev/ttySO 115200
+/dev/ttyS0 115200
 
 # Debian architectures
 Available in two architectures:
