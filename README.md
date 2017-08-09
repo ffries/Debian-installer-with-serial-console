@@ -50,3 +50,6 @@ Burn a CD-ROM or transfer to a USB key.
 # Credits
 Credits go the GNU/linux Debian project, Debian installer and Debian simple-cdd tool. 
 This project is also inspired by https://github.com/ssinyagin/pcengines-apu-debian-cd, which provides and automated installation for PC Engines APU.
+
+# Future plans
+Serial console is very common, from small embedded devices to large server. It is sad to notice that no full-featured serial installer is available in Debian. On the converse, video mode is now set to VGA with graphics and Debian installer returns an error on serial console. Therefore, we would like to add a serial console target in the main Gnu/Linux Debian installer, to be able to produce installers with serial console and firmware in all available Debian targets. When this is done, we will remove this project.
