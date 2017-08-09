@@ -366,6 +366,7 @@ Install OpenSSH server if you need SSH remote access:
 * Make sure that keyboard is well-detected. My keyboard is French. Can you verify with your own keyboard?
 * Add more options to the script.
 * Verify if Intel drivers can be added to the installer.
+* Of course, a more suitable solution would be to modify Debian installer directly.
 * Contact Debian team and discuss an official Debian installer with serial console, available from debian.org, with their own tools (stock installer).
 
 # Credits
