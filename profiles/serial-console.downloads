@@ -1,1 +1,3 @@
-linux-image-amd64
+# Uncomment to indicate a custom Linux kernel for inclusion
+# Normally, this should not be needed
+#linux-image-amd64
