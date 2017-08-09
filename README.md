@@ -20,9 +20,9 @@ If the Debian official installer does not suit you, please use our script to cre
 No need for a complex BIOS or IPMI to have serial console redirection. Your computer ONLY needs a serial port. This is the case of most servers and small appliances, like the Pc Engines APU 1/2/3 series and Alix series.
 
 This installer has been tested on:
-* Pc Engines APU 1c
-* Pc Engines 2D13
-* Supermicro server
+* Pc Engines APU 1c (USB stick / CD-ROM / TFT boot)
+* Pc Engines 2D13 (CD-ROM / TFT boot). Booting from USB stick is not supported.
+* Supermicro server (USB stick / CD-ROM / TFT boot)
 
 This unofficial installer is very minimal to support most needs.
 It does not include custom packages, i.e. IPMI for Supermicro or LED support for Pc Engines APU.
@@ -39,10 +39,11 @@ Modify /profiles/serial-console.conf to enable an alternative serial port and/or
 
 # Debian architectures
 Available in two architectures:
-* i386 (32 bit)
-* amd64 (64 bit)
+* amd64 (64 bit architecture)
+* i386 (32 bit architecture)
 
-amd64 by defaut. Modify /profiles/serial-console.conf to enable i386.
+Builds an amd64 installer by defaut. Modify /profiles/serial-console.conf to enable i386.
+An unofficial installer for i386 can be build using an amd64 host and the converse is also true.
 
 # Debian flavors
 Built for Debian latest release with security fixes:
