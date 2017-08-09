@@ -139,6 +139,20 @@ Loading components:
 	x                                                                         x
 	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
+Network should be autodetected if your network card is supported by Debian installer:
+
+	lqqqqqqqqqqqqqqu Detecting link on enp1s0; please wait... tqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x                                   58%                                   x
+	x                                                                         x
+	x                                                                         x
+	x                                                                         x
+	x     <Cancel>                                                            x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+	CTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.7 | VT102 | Connecté 0:0 | ttyUSB0                                                                                                                               
+
 The keyboard seems to be auto-detected by installer (?) or detected during creation of the installer (?). On a stock-Debian installer, keyboard is detected. We will have to check and verify that issue. So please check [ ] Show password to verify that your keyboard is well-detected.
 
 	lqqqqqqqqqqqqqqqqu [!!] Set up users and passwords tqqqqqqqqqqqqqqqqqk
@@ -156,7 +170,34 @@ The keyboard seems to be auto-detected by installer (?) or detected during creat
 	x                                                                    x
 	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
-After setting root and user passwords, you have access to disc setup. YES, you have access to lvm, encrypted lvm and manual setup (including RAID). Yes, you can!
+Configure NTP clock:
+
+	lqqqqqqqqqqqqqqqqqqqqqqqu [!] Configure the clock tqqqqqqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x If the desired time zone is not listed, then please go back to the      x
+	x step "Choose language" and select a country that uses the desired       x
+	x time zone (the country where you live or are located).                  x
+	x                                                                         x
+	x Select your time zone:                                                  x
+	x                                                                         x
+	x                             Eastern                                     x
+	x                             Central                                     x
+	x                             Mountain                                    x
+	x                             Pacific                                     x
+	x                             Alaska                                      x
+	x                             Hawaii                                      x
+	x                             Arizona                                     x
+	x                             East Indiana                                x
+	x                             Samoa                                       x
+	x                                                                         x
+	x     <Go Back>                                                           x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+	<Tab> moves; <Space> selects; <Enter> activates buttons
+
+
+You have access to Debian disc and partitioning utilities, including lvm, RAID and crypto setup. 
 
 	lqqqqqqqqqqqqqqqqqqqqqqqqu [!!] Partition disks tqqqqqqqqqqqqqqqqqqqqqqqqqk
 	x                                                                         x
@@ -191,30 +232,7 @@ Installing base system:
 	x                                                                         x
 	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
-Choose to agree or disagree with Intel license agreement. If you disagree, installation will be aborted. If you don't need this driver, please remove it from your configuration before making the installer:
-	
-	qqqqqqqqqqqqqqqqqqu [!!] Configuring firmware-ipw2x00 tqqqqqqqqqqqqqqqqqqk
-	x                                                                         x
-	x In order to install this package, you must agree to the following       x
-	x terms, the "Intel Pro Wireless 2100 and 2200/2915 License". If you do   x
-	x not agree, the installation will be canceled.                           x
-	x                                                                         x
-	x SOFTWARE LICENSE AGREEMENT (Final, Single User)hes spéciales            x
-	x                                                                         x
-	Do not use or load this firmware image (the "Software") until you
-	have carefully read the following terms and conditions. By loading or   
-	using the Software, you agree to the terms of this Agreement. If you    
-	do not wish to so agree, do not install or use the Software.      
-	x                                                                         x
-	x LICENSE. You may copy and use the Software, subject to these            x
-	x conditions:                                                             x
-	x                                                                         x
-	x 1. This Software is licensed for use only in conjunction with Intel     x
-	x                                                                         x
-	x     <Yes>                                                      <No>     x
-	qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-
-Network is auto-configured. We will test if possible to display more information about Network. Choose a mirror:
+Choose an installation mirror:
 
 	lqqqqqqqqqqqqqqqqqqu [!] Configure the package manager tqqqqqqqqqqqqqqqqqqk
 	x                                                                         x
