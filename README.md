@@ -5,16 +5,29 @@ Debian-serial-console is a wrapper around build-simple-cdd scrpit and Debian pre
 
 It allows to build a generic Debian GNU/Linux installer. It is yet an experimental tool meant to study inclusion in Debian of an installer with full serial-console support. Use with caution at your own risk.
 
+# Supported computers
+No need for a complex BIOS or IPMI to have serial console redirection. Your computer ONLY needs a serial port. This is the case of most servers and small appliances, like the Pc Engines APU 1/2/3 series and Alix series.
+
+This installer has been tested on:
+* Pc Engines APU 1c
+* Pc Engines 2D13
+* Supermicro server
+
+Please report success opening a support issue on Github:
+https://github.com/ffries/Debian-installer-with-serial-console/issues
+
 # Serial console
 By default, serial console is set to:
 /dev/ttyS0 115200
+
+Modify /profiles/serial-console.conf to enable an alternative serial port and/or speed.
 
 # Debian architectures
 Available in two architectures:
 * i386 (32 bit)
 * amd64 (64 bit)
 
-amd64 by defaut. You will need to modify /profiles/serial-console.conf to enable i386.
+amd64 by defaut. Modify /profiles/serial-console.conf to enable i386.
 
 # Debian flavors
 Built for Debian latest release with security fixes:
