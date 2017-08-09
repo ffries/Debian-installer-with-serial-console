@@ -30,16 +30,19 @@ The installer includes free and non-free firmware allowing to detect network and
 
 # Running the script
 Checkout the project:
+
 	git checkout Debian-installer-with-serial-console 
+
 	cd Debian-installer-with-serial-console 
 
 You may need to customize profiles/serial-console.conf
 
 Then build the CD:
+
 	sh ./build-debian-installer.sh
 
 The resulting installer CD is in images/
 
 # Credits
-Credits go the Debian project, Debian installer and Debian simple-cdd tool. 
+Credits go the GNU/linux Debian project, Debian installer and Debian simple-cdd tool. 
 This project is also inspired by https://github.com/ssinyagin/pcengines-apu-debian-cd, which provides and automated installation for PC Engines APU.
