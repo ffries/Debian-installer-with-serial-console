@@ -11,7 +11,8 @@ By default, serial console is set to:
 
 # Debian architectures
 Available in two architectures:
-i386 (32 bit) / amd64 (64 bit)
+* i386 (32 bit)
+* amd64 (64 bit)
 
 # Debian flavors
 Built for Debian latest release with security fixes:
@@ -19,13 +20,13 @@ Debian 9.1 (Stretch)
 
 # Firmwares
 The installer includes free and non-free firmware allowing to detect network and wireless cards:
-   firmware-linux
-   firmware-brcm80211
-   firmware-realtek
-   firmware-atheros
-   firmware-misc-nonfree
-   firmware-ipw2x00
-   firmware-iwlwifi
+* firmware-linux
+* firmware-brcm80211
+* firmware-realtek
+* firmware-atheros
+* firmware-misc-nonfree
+* firmware-ipw2x00
+* firmware-iwlwifi
 
 # Running the script
 Checkout the project:
