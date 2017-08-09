@@ -102,6 +102,58 @@ Installer has only English locales, choose whatever, this can be changed after f
 
 	<F1> for help; <Tab> moves; <Space> selects; <Enter> activates buttons
 
+Loading components:
+
+	lqqqqqqqqqqqqqqqqqqqqu Loading additional components tqqqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x                                   18%                                   x
+	x                                                                         x
+	x Retrieving jfsutils-udeb                                                x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+The keyboard seems to be auto-detected by installer (?) or detected during creation of the installer (?). On a stock-Debian installer, keyboard is detected. We will have to check and verify that issue. So please check [ ] Show password to verify that your keyboard is well-detected.
+
+	lqqqqqqqqqqqqqqqqu [!!] Set up users and passwords tqqqqqqqqqqqqqqqqqk
+	x                                                                    x
+	x Please enter the same root password again to verify that you have  x
+	x typed it correctly.                                                x
+	x                                                                    x
+	x Re-enter password to verify:                                       x
+	x                                                                    x
+	x azerty____________________________________________________________ x
+	x                                                                    x
+	x [*] Show Password in Clear                                         x
+	x                                                                    x
+	x     <Go Back>                                       <Continue>     x
+	x                                                                    x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+After setting root and user passwords, you have access to disc setup. YES, you have access to lvm, encrypted lvm and manual setup (including RAID). Yes, you can!
+
+	lqqqqqqqqqqqqqqqqqqqqqqqqu [!!] Partition disks tqqqqqqqqqqqqqqqqqqqqqqqqqk
+	x                                                                         x
+	x The installer can guide you through partitioning a disk (using          x
+	x different standard schemes) or, if you prefer, you can do it            x
+	x manually. With guided partitioning you will still have a chance later   x
+	x to review and customise the results.                                    x
+	x                                                                         x
+	x If you choose guided partitioning for an entire disk, you will next     x
+	x be asked which disk should be used.                                     x
+	x                                                                         x
+	x Partitioning method:                                                    x
+	x                                                                         x
+	x          Guided - use entire disk                                       x
+	x          Guided - use entire disk and set up LVM                        x
+	x          Guided - use entire disk and set up encrypted LVM              x
+	x          Manual                                                         x
+	x                                                                         x
+	x     <Go Back>                                                           x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+	<Tab> moves; <Space> selects; <Enter> activates buttons
+
 
 
 # Credits
