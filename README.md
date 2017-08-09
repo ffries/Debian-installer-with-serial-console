@@ -320,22 +320,40 @@ Reboot!
 
 	The system is going to reboot.
 
-WARNING: at present, it reboots on the installer. So remove installer as quickly as possible.
+WARNING: at present, it reboots on the installer. So remove the installation media as quickly as possible.
 
 # Upon first boot
 
-This is a very minimal installation. Now, please customize to your needs.
+This is a very minimal installation. Make sure your are running Debian stable:
+
+	$ cat /etc/apt/sources.list
+
+	# deb cdrom:[Debian GNU/Linux 9.1 _Stretch_ - Unofficial amd64 CD Binary-1 20170809-07:45]/ stretch main non-free
+
+	#deb cdrom:[Debian GNU/Linux 9.1 _Stretch_ - Unofficial amd64 CD Binary-1 20170809-07:45]/ stretch main non-free
+
+	deb http://ftp.fr.debian.org/debian/ stretch main non-free contrib
+	deb-src http://ftp.fr.debian.org/debian/ stretch main non-free contrib
+
+	deb http://security.debian.org/debian-security stretch/updates main contrib non-free
+	deb-src http://security.debian.org/debian-security stretch/updates main contrib non-free
+
+	# stretch-updates, previously known as 'volatile'
+	deb http://ftp.fr.debian.org/debian/ stretch-updates main contrib non-free
+	deb-src http://ftp.fr.debian.org/debian/ stretch-updates main contrib non-free
+
+Debian repositories should be the ones selected during installation. If you had network access during installation, it should be already up-to-date.
+
+Now, please customize to your needs.
 
 Reconfigure your locales:
 
-	dpkg-reconfigure locales
+	$ dpkg-reconfigure locales
 
 Install OpenSSH server if you need SSH remote access:
 	
-	apt-get update
-	apt-get install openssh-server
-
-
+	$ apt-get update
+	$ apt-get install openssh-server
 
 # Improvements/Issues
 
