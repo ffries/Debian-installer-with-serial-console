@@ -74,33 +74,33 @@ Installation begins automatically:
   	x                                                                         x
   	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
-  <Tab> moves; <Space> selects; <Enter> activates buttons
+  	<Tab> moves; <Space> selects; <Enter> activates buttons
 
 Installer has only English locales, choose whatever, this can be changed after first boot:
 
-  lqqqqqqqqqqqqqqqqqqqqqqqqu [!] Configure locales tqqqqqqqqqqqqqqqqqqqqqqqqk
-  x                                                                         x
-  x There is no locale defined for the combination of language and          x
-  x country you have selected. You can now select your preference from      x
-  x the locales available for the selected language. The locale that will   x
-  x be used is listed in the second column.                                 x
-  x                                                                         x
-  x Country to base default locale settings on:                             x
-  x                                                                         x
-  x                 Nigeria              -  en_NG                           x
-  x                 Philippines          -  en_PH.UTF-8  a                  x
-  x                 Singapore            -  en_SG.UTF-8  a                  x
-  x                 South Africa         -  en_ZA.UTF-8  a                  x
-  x                 United Kingdom       -  en_GB.UTF-8  a                  x
-  x                 United States        -  en_US.UTF-8                     x
-  x                 Zambia               -  en_ZM        a                  x
-  x                 Zimbabwe             -  en_ZW.UTF-8                     x
-  x                                                                         x
-  x     <Go Back>                                                           x
-  x                                                                         x
-  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+  	lqqqqqqqqqqqqqqqqqqqqqqqqu [!] Configure locales tqqqqqqqqqqqqqqqqqqqqqqqqk
+  	x                                                                         x
+  	x There is no locale defined for the combination of language and          x
+	x country you have selected. You can now select your preference from      x
+	x the locales available for the selected language. The locale that will   x
+	x be used is listed in the second column.                                 x
+	x                                                                         x
+	x Country to base default locale settings on:                             x
+	x                                                                         x
+	x                 Nigeria              -  en_NG                           x
+	x                 Philippines          -  en_PH.UTF-8  a                  x
+	x                 Singapore            -  en_SG.UTF-8  a                  x
+	x                 South Africa         -  en_ZA.UTF-8  a                  x
+	x                 United Kingdom       -  en_GB.UTF-8  a                  x
+	x                 United States        -  en_US.UTF-8                     x
+	x                 Zambia               -  en_ZM        a                  x
+	x                 Zimbabwe             -  en_ZW.UTF-8                     x
+	x                                                                         x
+	x     <Go Back>                                                           x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
-  <F1> for help; <Tab> moves; <Space> selects; <Enter> activates buttons
+	<F1> for help; <Tab> moves; <Space> selects; <Enter> activates buttons
 
 
 
