@@ -28,6 +28,8 @@ The installer includes free and non-free firmware allowing to detect network and
 * firmware-ipw2x00
 * firmware-iwlwifi
 
+Running non-free firmware may taint your Operating System, but it is sometimes needed, either because you need a prorietary driver or that a free driver needs a proprietary firmware. It is always better to choose hardware with a fully free network stack.
+
 # Running the script
 Checkout the project:
 
@@ -211,13 +213,64 @@ Choose a mirror:
 	x                                                                         x
 	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
 
-<Tab> moves; <Space> selects; <Enter> activates buttons
+	<Tab> moves; <Space> selects; <Enter> activates buttons
+
+Choose to report or not-report your software activities to Debian:
+
+	lqqqqqqqqqqqqqqqqu [!] Configuring popularity-contest tqqqqqqqqqqqqqqqqqk
+	x                                                                       x
+	x The system may anonymously supply the distribution developers with    x
+	x statistics about the most used packages on this system. This          x
+	x information influences decisions such as which packages should go on  x
+	x the first distribution CD.                                            x
+	lx                                                                      x
+	xx If you choose to participate, the automatic submission script will   x
+	xx run once every week, sending statistics to the distribution          x
+	xx developers. The collected statistics can be viewed on                x
+	xx http://popcon.debian.org/.                                           x
+	xx                                                                      x
+	mx This choice can be later modified by running "dpkg-reconfigure       x
+	x popularity-contest".                                                  x
+	x                                                                       x
+	x Participate in the package usage survey?                              x
+	x                                                                       x
+	x     <Yes>                                                    <No>     x
+	x                                                                       x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+	<Tab> moves; <Space> selects; <Enter> activates buttons
+
+Install Grub bootloader:
+
+	lqqqqqqqqqqqu [!] Install the GRUB boot loader on a hard disk tqqqqqqqqqqqk
+	x                                                                         x
+	x You need to make the newly installed system bootable, by installing     x
+	x the GRUB boot loader on a bootable device. The usual way to do this     x
+	x is to install GRUB on the master boot record of your first hard         x
+	x drive. If you prefer, you can install GRUB elsewhere on the drive, or   x
+	x to another drive, or even to a floppy.                                  x
+	x                                                                         x
+	x Device for boot loader installation:                                    x
+	x                                                                         x
+	x        Enter device manually                                            x
+	x        /dev/sda  (ata-SATA_SSD_FF1A07491C0800678607)                    x
+	x        /dev/sdb  (usb-Multiple_Card_Reader_058F63666485-0:0)            x
+	x                                                                         x
+	x     <Go Back>                                                           x
+	x                                                                         x
+	mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+	<Tab> moves; <Space> selects; <Enter> activates buttons
+
+Reboot!
+	The system is going to reboot.
 
 
 # Improvements/Issues
 
 * Provide all locales like in a normal installer.
 * Make sure that keyboard is well-detected. My keyboard is French. Can you verify with your own keyboard?
+* Verify if Intel drivers can be added to the installer.
 * Contact Debian team and discuss an official Debian installer with serial console, available from debian.org, with their own tools (stock installer).
 
 # Credits
