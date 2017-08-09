@@ -22,15 +22,22 @@ Debian 9.1 (Stretch)
 
 # Firmwares
 The installer includes free and non-free firmware allowing to detect network and wireless cards:
-* firmware-linux
-* firmware-brcm80211
-* firmware-realtek
 * firmware-atheros
-* firmware-misc-nonfree
-* firmware-ipw2x00
+* firmware-bnx2
+* firmware-bnx2x
+* firmware-brcm80211
+* firmware-cavium
+* firmware-intelwimax
 * firmware-iwlwifi
-
-Running non-free firmware may taint your Operating System, but it is sometimes needed, either because you need a prorietary driver or that a free driver needs a proprietary firmware. It is always better to choose hardware with a fully free network stack.
+* firmware-libertas
+* firmware-linux
+* firmware-misc-nonfree
+* firmware-myricom
+* firmware-netxen
+* firmware-qlogic
+* firmware-realtek
+* firmware-ti-connectivity
+* firmware-zd1211
 
 # Running the script
 Checkout the project:

@@ -2,9 +2,16 @@
 d-i debian-installer/add-kernel-opts string video=off\
  console=ttyS0,115200
 
-# Include non-free debian section
-base-config     apt-setup/non-free      boolean true
+# Optionally specify additional locales to be generated.
+d-i localechooser/supported-locales multiselect en_US.UTF-8, fr_FR.UTF-8, de_DE.UTF-8, es_ES.UTF-8, nl_NL.UTF-8
+
+# Keyboard selection.
+# Enable automatic (interactive) keymap detection.
+d-i console-setup/ask_detect boolean true
 
 # Load firmware before detecting network cards
 d-i hw-detect/load_firmware boolean true
+d-i netcfg/enable boolean true
 
+# Include non-free debian section
+base-config     apt-setup/non-free      boolean true
