@@ -2,9 +2,6 @@
 d-i debian-installer/add-kernel-opts string video=off\
  console=ttyS0,115200
 
-# Optionally specify additional locales to be generated.
-d-i localechooser/supported-locales multiselect en_US.UTF-8, fr_FR.UTF-8, de_DE.UTF-8, es_ES.UTF-8, nl_NL.UTF-8
-
 # Keyboard selection.
 # Enable automatic (interactive) keymap detection.
 d-i console-setup/ask_detect boolean true

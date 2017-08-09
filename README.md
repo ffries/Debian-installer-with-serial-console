@@ -40,6 +40,9 @@ The installer includes free and non-free firmware allowing to detect network and
 * firmware-zd1211
 
 # Running the script
+
+Use a Debian Strech host for building. Building under Debian testing or Debian sid may result in an error.
+
 Checkout the project:
 
 	git clone https://github.com/ffries/Debian-installer-with-serial-console.git 
