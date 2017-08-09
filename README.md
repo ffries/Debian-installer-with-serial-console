@@ -1,5 +1,5 @@
 # Debian-installer-with-serial-console
-Allows installing Debian GNU/Linux using serial console on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU/ALIX to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
+Builds an unofficial Debian Strech installer with serial console enabled by default on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU/ALIX to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
 
 Debian-serial-console is a wrapper around build-simple-cdd scrpit and Debian preseed configuration.
 
@@ -14,7 +14,7 @@ Using the Official Debian installer for a serial console installation is still p
 * Press F10 or F12 hoping this does not interfere with your running environment.
 * Upon reboot, you will need to modify /etc/defaut/grub to enable serial console. 
 
-If the Debian official installer does not suit you, please use our script to create an alternative Debian installer with serial console:
+If the Debian official installer does not suit you, please use our script to create an unofficial Debian installer with serial console:
 
 # Supported computers
 No need for a complex BIOS or IPMI to have serial console redirection. Your computer ONLY needs a serial port. This is the case of most servers and small appliances, like the Pc Engines APU 1/2/3 series and Alix series.
