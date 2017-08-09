@@ -21,7 +21,6 @@ No need for a complex BIOS or IPMI to have serial console redirection. Your comp
 
 This installer has been tested on:
 * Pc Engines APU 1c (USB stick / CD-ROM / TFT boot)
-* Pc Engines 2D13 (CD-ROM / TFT boot). Booting from USB stick is not supported.
 * Supermicro server (USB stick / CD-ROM / TFT boot)
 
 This unofficial installer is very minimal to support most needs.
@@ -44,6 +43,9 @@ Available in two architectures:
 
 Builds an amd64 installer by defaut. Modify /profiles/serial-console.conf to enable i386.
 An unofficial installer for i386 can be build using an amd64 host and the converse is also true.
+
+The i386 installer is slightly different and needs more testing.
+Under ALIX 2D13, it is required to use i386 and a CD-ROM, as booting from USB stick is not supported.
 
 # Debian flavors
 Built for Debian latest release with security fixes:
