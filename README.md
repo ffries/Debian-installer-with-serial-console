@@ -1,3 +1,5 @@
+This project is no longer maintained.
+
 # Unofficial Debian-installer-with-serial-console
 Builds an unofficial Debian Strech installer with serial console enabled by default on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU/ALIX to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
 
