@@ -1,4 +1,4 @@
-This project is no longer maintained.
+This project is no longer maintained. Debian installer now uses secure boot which requires signing with an official Debian key. So it is no longer possible to modify the installer.
 
 # Unofficial Debian-installer-with-serial-console
 Builds an unofficial Debian Strech installer with serial console enabled by default on /dev/ttyS0, speed 115200. No need to type "H" during boot or to modify Grub loader. Compatible with a vast number of computers, from PC Engines APU/ALIX to Supermicro computers. Build your own installer or download one. Available for x86, x64 and soon arm. 
